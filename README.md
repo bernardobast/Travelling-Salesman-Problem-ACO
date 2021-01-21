@@ -11,7 +11,9 @@ The components were also divided into several packages which include:
 * ants - Includes all the components related to ants which will explore the graph. These ants are further grouped into a colony.
 * graph - Includes all components that define the weighted graph with time to traverse between nodes and pheromone levels in the edges that can increase or evaporate. It also chooses the next node of the path based on the current node.
 * simulation - Includes all components related to the process of running the algorithm. Includes the Main class.
+
 Moreover, several interfaces were also implemented:
+
 * graph:
   * IAnt: Interface of the ant class
   * IColony: Interface of the ant colony which stores all the ants.
