@@ -25,7 +25,7 @@ Moreover, several interfaces were also implemented:
   * IEvent: Interface for the events added in the pec class. Example: Ant move or pheromone evaporation.
   * ISimStatus: Interface for observations. Prints relevant information about the simulation status such as the time instance, number of ant movements, number of evaporation events and the best hamilton path found so far.
 
-
-#UML
 The visual representation of all the software components is presented in the UML folder.
+
+# 
 
