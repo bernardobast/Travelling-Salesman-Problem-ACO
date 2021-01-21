@@ -14,9 +14,17 @@ The components were also divided into several packages which include:
 
 Moreover, several interfaces were also implemented:
 
-* graph:
+* ants:
   * IAnt: Interface of the ant class
   * IColony: Interface of the ant colony which stores all the ants.
+* graph:
+  * IGraph: Interface for the Graph of the simulation.
+* simulation:
+  * ISimulation: Interface to deal with the .xml file with the input parameters of the simulation.
+  * IPEC: Interface for the PEC. Priority queue which stores all the events to be performed by each ant throughout the algorithm execution. 
+  * IEvent: Interface for the events added in the pec class. Example: Ant move or pheromone evaporation.
+  * ISimStatus: Interface for observations. Prints relevant information about the simulation status such as the time instance, number of ant movements, number of evaporation events and the best hamilton path found so far.
+
 
 #UML
 The visual representation of all the software components is presented in the UML folder.
