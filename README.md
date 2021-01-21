@@ -27,5 +27,6 @@ Moreover, several interfaces were also implemented:
 
 The visual representation of all the software components is presented in the UML folder.
 
-# 
+# Running and Input files
 
+An XML input file is used to specify the initial graph (nodes, connections and weights). To be considered Well-Formed, this file follows the syntax configuration specified in the DTD file.
